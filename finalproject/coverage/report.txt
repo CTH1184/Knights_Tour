@@ -1,0 +1,230 @@
+Coverage Report Summary Data by file
+
+=================================================================================
+=== File: /filespace/b/bgzingler/fall2024/ece551/ece551-team/finalproject/IR_intf.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        28        28         0   100.00%
+    Conditions                       2         2         0   100.00%
+    Expressions                      6         6         0   100.00%
+    Statements                      41        41         0   100.00%
+    Toggles                        122       100        22    81.96%
+
+=================================================================================
+=== File: /filespace/b/bgzingler/fall2024/ece551/ece551-team/finalproject/KnightPhysics.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                       114        53        61    46.49%
+    Conditions                      69        17        52    24.63%
+    Statements                      90        63        27    70.00%
+    Toggles                        496       479        17    96.57%
+
+=================================================================================
+=== File: /filespace/b/bgzingler/fall2024/ece551/ece551-team/finalproject/KnightsTour.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                        268       205        63    76.49%
+
+=================================================================================
+=== File: /filespace/b/bgzingler/fall2024/ece551/ece551-team/finalproject/KnightsTour_bad_cmd_tb.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      26        26         0   100.00%
+    Toggles                         92        64        28    69.56%
+
+=================================================================================
+=== File: /filespace/b/bgzingler/fall2024/ece551/ece551-team/finalproject/KnightsTour_fanfare_tb.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      55        29        26    52.72%
+    Toggles                         92        74        18    80.43%
+
+=================================================================================
+=== File: /filespace/b/bgzingler/fall2024/ece551/ece551-team/finalproject/MtrDrv.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                       2         2         0   100.00%
+    Toggles                         44        44         0   100.00%
+
+=================================================================================
+=== File: /filespace/b/bgzingler/fall2024/ece551/ece551-team/finalproject/PID.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        29        26         3    89.65%
+    Conditions                      10         4         6    40.00%
+    Expressions                      4         4         0   100.00%
+    Statements                      34        34         0   100.00%
+    Toggles                        486       460        26    94.65%
+
+=================================================================================
+=== File: /filespace/b/bgzingler/fall2024/ece551/ece551-team/finalproject/RemoteComm.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        23        23         0   100.00%
+    Statements                      24        24         0   100.00%
+    Toggles                         70        66         4    94.28%
+
+=================================================================================
+=== File: /filespace/b/bgzingler/fall2024/ece551/ece551-team/finalproject/SPI_iNEMO4.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        53        39        14    73.58%
+    Conditions                       2         2         0   100.00%
+    Expressions                      3         1         2    33.33%
+    Statements                      84        60        24    71.42%
+    Toggles                        136       116        20    85.29%
+
+=================================================================================
+=== File: /filespace/b/bgzingler/fall2024/ece551/ece551-team/finalproject/SPI_mnrch.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        25        25         0   100.00%
+    Conditions                       2         2         0   100.00%
+    Expressions                      1         1         0   100.00%
+    Statements                      36        36         0   100.00%
+    Toggles                        114       114         0   100.00%
+
+=================================================================================
+=== File: /filespace/b/bgzingler/fall2024/ece551/ece551-team/finalproject/TourCmd.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        39        10        29    25.64%
+    Conditions                      19         0        19     0.00%
+    Expressions                      3         1         2    33.33%
+    Statements                      30        17        13    56.66%
+    Toggles                        120         4       116     3.33%
+
+=================================================================================
+=== File: /filespace/b/bgzingler/fall2024/ece551/ece551-team/finalproject/TourLogic.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        74        19        55    25.67%
+    Conditions                      13         0        13     0.00%
+    Statements                      86        28        58    32.55%
+    Toggles                        128        17       111    13.28%
+
+=================================================================================
+=== File: /filespace/b/bgzingler/fall2024/ece551/ece551-team/finalproject/UART.v
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                         24        22         2    91.66%
+
+=================================================================================
+=== File: /filespace/b/bgzingler/fall2024/ece551/ece551-team/finalproject/UART_rx.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        27        27         0   100.00%
+    Conditions                       4         4         0   100.00%
+    Expressions                      4         1         3    25.00%
+    Statements                      36        36         0   100.00%
+    Toggles                        110       109         1    99.09%
+
+=================================================================================
+=== File: /filespace/b/bgzingler/fall2024/ece551/ece551-team/finalproject/UART_tx.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        30        29         1    96.66%
+    Conditions                       3         2         1    66.66%
+    Expressions                      1         1         0   100.00%
+    Statements                      33        33         0   100.00%
+    Toggles                        110       107         3    97.27%
+
+=================================================================================
+=== File: /filespace/b/bgzingler/fall2024/ece551/ece551-team/finalproject/UART_wrapper.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        20        20         0   100.00%
+    Conditions                       2         2         0   100.00%
+    Statements                      26        26         0   100.00%
+    Toggles                         86        86         0   100.00%
+
+=================================================================================
+=== File: /filespace/b/bgzingler/fall2024/ece551/ece551-team/finalproject/cmd_proc.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        48        41         7    85.41%
+    Conditions                       2         2         0   100.00%
+    Expressions                      5         5         0   100.00%
+    Statements                      59        54         5    91.52%
+    Toggles                        192       104        88    54.16%
+
+=================================================================================
+=== File: /filespace/b/bgzingler/fall2024/ece551/ece551-team/finalproject/inert_intf.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        31        31         0   100.00%
+    Conditions                       2         1         1    50.00%
+    Statements                      46        46         0   100.00%
+    Toggles                        144       132        12    91.66%
+
+=================================================================================
+=== File: /filespace/b/bgzingler/fall2024/ece551/ece551-team/finalproject/inertial_integrator.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        34        31         3    91.17%
+    Conditions                       9         3         6    33.33%
+    Expressions                      1         1         0   100.00%
+    Statements                      50        47         3    94.00%
+    Toggles                        328       222       106    67.68%
+
+=================================================================================
+=== File: /filespace/b/bgzingler/fall2024/ece551/ece551-team/finalproject/pwm11.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         4         4         0   100.00%
+    Expressions                      1         1         0   100.00%
+    Statements                       9         9         0   100.00%
+    Toggles                         28        28         0   100.00%
+
+=================================================================================
+=== File: /filespace/b/bgzingler/fall2024/ece551/ece551-team/finalproject/rst_synch.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         4         4         0   100.00%
+    Statements                       6         6         0   100.00%
+    Toggles                          4         2         2    50.00%
+
+=================================================================================
+=== File: /filespace/b/bgzingler/fall2024/ece551/ece551-team/finalproject/sponge.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        41        11        30    26.82%
+    Conditions                       6         0         6     0.00%
+    Expressions                      2         0         2     0.00%
+    Statements                      65        23        42    35.38%
+    Toggles                        190         2       188     1.05%
+
+=================================================================================
+=== File: /filespace/b/bgzingler/fall2024/ece551/ece551-team/finalproject/tasks.sv
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        14         8         6    57.14%
+    Conditions                       7         2         5    28.57%
+    Statements                     105        72        33    68.57%
+
+
+Total Coverage By File (code coverage only, filtered view): 63.51%
+

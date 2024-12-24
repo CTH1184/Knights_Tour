@@ -1,0 +1,55 @@
+# Read in the Verilog files
+read_file -format sverilog { ./KnightsTour.sv ./cmd_proc.sv ./inert_intf.sv ./inertial_integrator.sv ./IR_intf.sv ./MtrDrv.sv ./PID.sv ./pwm11.sv ./rst_synch.sv ./PB_release.sv ./SPI_mnrch.sv ./sponge.sv ./TourCmd.sv ./TourLogic.sv ./UART_rx.sv ./UART_tx.sv ./UART_wrapper.sv ./UART.v }
+
+# Set current design to the top level
+set current_design KnightsTour
+
+# Define Clock and Primitive Inputs
+set_units -time ns
+create_clock -name "clk" -period 3.0 -waveform { 0 1.5 } {clk}
+set_dont_touch_network [find port clk]
+set_dont_touch_network [get_net iRST/rst_n]
+set prim_inputs [ remove_from_collection [all_inputs] [find port clk] ]
+
+## Set Constraints on Our Design ##
+
+# Inputs
+set_input_delay -clock clk 0.4 $prim_inputs
+set_driving_cell -lib_cell NAND2X2_LVT -library saed32lvt_tt0p85v25c $prim_inputs
+set_drive 0.1 rst_n
+
+# Outputs
+set_output_delay -clock clk 0.4 [all_outputs]
+set_load 0.1 [all_outputs]
+
+# Parasitic Capacitance and Hot Electron Mitigation
+set_wire_load_model -name 16000 -library saed32lvt_tt0p85v25c
+set_max_transition 0.15 [current_design]
+
+# Set Clock Uncertainty
+set_clock_uncertainty 0.15 [get_clocks "clk"]
+
+
+# First Round Compilation
+compile -map_effort high -area_effort high -power_effort high
+
+# Fix First Round Compilation Errors
+ungroup -all -flatten
+set_fix_hold clk
+
+# Second Round Compilation
+compile -map_effort high -area_effort high -power_effort high
+
+# Fix Second Round Compilation Errors
+ungroup -all -flatten
+
+# Third round to fix hold time violations
+compile -incremental_mapping -only_hold_time
+
+# Write Completed Output
+write -format verilog KnightsTour -output KnightsTour.vg
+
+# Create Output Reports
+report_area > area.rpt
+report_timing -delay max  > max_timing.rpt
+report_timing -delay min > min_timing.rpt

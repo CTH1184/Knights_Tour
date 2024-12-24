@@ -1,0 +1,12 @@
+# ModelSim Output Files
+**/work/
+**/transcript
+**/*.bak
+**/*.nfs*
+
+# ModelSim Project Files
+**/*.mti
+**/*.mpf
+
+# ModelSim Waveform
+**/*.wlf
